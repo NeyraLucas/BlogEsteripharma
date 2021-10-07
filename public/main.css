@@ -1,0 +1,140 @@
+:root{
+    --color-text-h1: #707070;
+    --color-text-title: #1A1A1A;
+    --color-text-desc: #707070;
+    --color-icon-green: #4ED677;
+    --color-icon-green-fondo: #DBF7E4;
+    --color-icon-hospital: #EB0F59;
+    --color-icon-hospital-fondo: #FBCFDE;
+    --color-icon-dentista: #00D3FF;
+    --color-icon-dentistal-fondo: #CCF6FF;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    width: auto;
+}
+
+header{
+    background-color: #00c3ff2f;
+    height: 620px;
+}
+
+
+h1{
+    color: var(--color-text-h1);
+    size: 1rem !important;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+h4{
+    color: var(--color-text-title);
+    font-weight: bolder !important;
+}
+
+p{
+    color: var(--color-text-desc);
+}
+
+a{
+    color: var(--color-text-h1) !important;
+}
+
+a:hover{
+    color: var(--color-icon-dentista) !important;
+}
+
+
+img{
+    width: 697px;
+    height: 274px;
+}
+
+.__svg{
+    width: 660px;
+    height: 467px;
+}
+
+.__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.__services_Container{
+    padding-top: 50px;
+    width: 1640px;
+    background-color: aqua;
+    
+}
+
+.__container_cta{
+    width: 500px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.75rem;
+}
+
+.cta{
+    padding: 20px;
+}
+
+.__cta_logo{
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-icon-green-fondo);
+    border-radius: 5px;
+    margin-bottom:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__cta_logo_hospital{
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-icon-hospital-fondo);
+    border-radius: 5px;
+    margin-bottom:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__cta_logo_dentista{
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-icon-dentistal-fondo);
+    border-radius: 5px;
+    margin-bottom:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icon_color{
+    color: var(--color-icon-green);
+    font-size: 50px;
+}
+
+.icon_color_hospital{
+    color: var(--color-icon-hospital);
+    font-size: 50px;
+}
+
+.icon_color_dentista{
+    color: var(--color-icon-dentista);
+    font-size: 50px;
+}
