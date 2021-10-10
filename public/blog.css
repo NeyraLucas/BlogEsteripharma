@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    width: auto;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    font-size: 1.25rem;
+    color: brown !important;
+}
+
+p{
+    text-align: justify;
+}
+
+.__container_img {
+  height: 200px;  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background: #333944;
+}
+
+.__img_header {
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    margin-right: 5px ;
+}
+
+.__container_cta_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+
+.__img_card{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+/* 
+@media screen and (min-width: 375px){
+    .__container_img{
+        height: 50px;
+    }
+} */
