@@ -23,7 +23,7 @@ body{
 
 header{
     background-color: #00c3ff2f;
-    height: 620px;
+   
 }
 
 
@@ -137,4 +137,28 @@ img{
 .icon_color_dentista{
     color: var(--color-icon-dentista);
     font-size: 50px;
+}
+
+
+
+@media screen and (min-width: 375px){
+    
+    .img-res{
+        width: 100px !important;
+    }
+
+    h1{
+        font-size: 1.5rem !important;
+        margin-bottom: -10px  !important;
+    }
+
+    .__container_cta{
+        width: 300px;
+        height: 430px;
+    }
+
+    .__ondonto{
+        height: 500px;
+    }
+    
 }
