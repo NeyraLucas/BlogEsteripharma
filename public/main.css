@@ -141,7 +141,7 @@ img{
 
 
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 420px){
     
     .img-res{
         width: 100px !important;
