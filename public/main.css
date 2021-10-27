@@ -139,6 +139,12 @@ img{
     font-size: 50px;
 }
 
+.img-navbar{
+    width: 15%;
+    height: 15%;
+}
+
+
 
 
 @media screen and (max-width: 420px){

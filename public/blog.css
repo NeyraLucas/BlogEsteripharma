@@ -18,6 +18,12 @@ p{
     color: #8a8a8a;
 }
 
+.img-navbar{
+    width: 15%;
+    height: 15%;
+}
+
+
 .__container_img {
   height: 200px;  
   display: flex;
@@ -29,7 +35,7 @@ p{
 
 .__img_header {
     width: 100%;
-    height: auto;
+    height: 50vh;
 }
 
 .icon{
@@ -55,6 +61,39 @@ p{
     
     font-size: .75rem;
 }
+
+.container__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px !important;
+}
+
+.img__res{
+    margin: auto 0;
+}
+
+.container2{
+    height: 100px;
+}
+
+.__container_fondo_img{
+    width: 100%;
+    background-color: aqua;
+}
+
+/* .__img_header2{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+} */
+
+.__container_fondo_img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
 
 
 /* 
